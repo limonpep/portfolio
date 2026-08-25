@@ -77,7 +77,30 @@ Free HTML CSS Template
       
       <p class="hero__desc">A study of contrast — moments suspended between 
         darkness and the searching, persistent light. Blah blah blah blah 
-        blah blah blah blah Blah blah blah blah Blah blah blah blah. </p>
+        blah blah blah blah Blah blah blah blah Blah blah blah blah. Here
+        I am writing a full book blah blah Implementation Notes for Windows 
+        and Linux Hosts On Windows hosts, a kernel mode device driver provides
+        USB proxy support. It implements both a USB monitor, which enables Oracle VirtualBox to capture 
+        devices when they are plugged in, and a USB device driver to claim USB devices for a particular 
+        virtual machine. System reboots are not necessary after installing the driver. Also, you do not need 
+        to replug devices for Oracle VirtualBox to claim them.On supported Linux hosts, Oracle VirtualBox accesses 
+        USB devices through special files in the file system. When Oracle VirtualBox is installed, these are made 
+        available to all users in the vboxusers system group. In order to be able to access USB from guest systems, 
+        make sure that you are a member of this group.Shared FoldersShared folders enable you to easily exchange data 
+        between a virtual machine and your host, or between VMs. This feature requires that the Oracle VirtualBox Guest 
+        Additions be installed in a virtual machine and is described in detail in Shared Folders.User InterfaceThe User 
+        Interface section enables you to change certain aspects of the user interface of the selected VM.Menu Bar: This 
+        widget enables you to disable a complete menu, by clicking on the menu name to deselect it. Menu entries can be 
+        disabled, by deselecting the check box next to the entry. On Windows and Linux hosts, the complete menu bar can be 
+        disabled by deselecting the check box on the right, after the menus.Mini ToolBar: In full screen or seamless mode, 
+        Oracle VirtualBox can display a small toolbar that contains some of the items that are normally available from the 
+        virtual machine's menu bar. This toolbar reduces itself to a small gray line unless you move the mouse over it. With
+        the toolbar, you can return from full screen or seamless mode, control machine execution, or enable certain devices. 
+        If you do not want to see the toolbar, disable the Show in Full Screen/Seamless setting.The Show at Top of Screen 
+        setting enables you to show the toolbar at the top of the screen, instead of showing it at the bottom.The Mini Toolbar 
+        is not available on macOS hosts.Status Bar: This widget enables you to disable and reorder icons on the status bar. 
+        Deselect the check box of an icon to disable it, or rearrange icons by dragging and dropping the icon. To disable the 
+        complete status bar deselect the check box on the left, before the icons</p>
     </div>
 
   </header>
@@ -108,16 +131,19 @@ Free HTML CSS Template
          data-meta="Tuscany, Italy · 2024">
 
       <!-- ↓ EDIT: Replace src with your thumbnail image, 
-                   Replace href with your case file page. -->
+                   Replace href with your case file page. 
+                   MAKE CLASS=CASE__IMAGE FOR NO ZOOM, 
+                   CLASS=GALLERY__IMAGE FOR ZOOM-->
     
       <img
       src="images/front_img1.jpg"
       width="1920"
       height="1080"
       alt="A portrait captured in golden hour light"
-      class="gallery__image"
+      class="case__image" 
       loading="lazy"
       />
+      <!-- UNCOMMENT THIS TO GET CAPTION FUNCTIONALITY BACK
       <div class="gallery__caption">
         <span class="gallery__caption-title">Modeling a House</span>
         <span class="gallery__caption-meta">House walkthrough tour in Unreal.</span>
@@ -126,6 +152,7 @@ Free HTML CSS Template
       <div class="gallery__expand-icon" aria-hidden="true">
         <svg viewBox="0 0 12 12" stroke-width="1.5"><path d="M1 4V1h3M8 1h3v3M11 8v3H8M4 11H1V8"/></svg>
       </div>
+    -->
     
       
 
@@ -444,13 +471,12 @@ Free HTML CSS Template
   </main><!-- /GALLERY -->
 
   <!-- ═══════════════════════════════════════════════════════════════
-       HERO
+       OVERLY FLASHY ABOUT TITLE
        ═══════════════════════════════════════════════════════════════ -->
-  <header class="page-hero">
+  <!--<header class="page-hero">
     <p class="page-hero__tag">The Photographer</p>
-    <!-- ↓ EDIT: Your name or studio tagline -->
     <h1 class="page-hero__title">About <strong>the Work</strong></h1>
-  </header>
+  </header>-->
 
 
   <!-- ═══════════════════════════════════════════════════════════════
@@ -500,9 +526,9 @@ Free HTML CSS Template
 
     <!-- ── CTA ──────────────────────────────────────────────────── -->
     <div class="about-cta">
-      <!-- ↓ EDIT: Link to your gallery and contact page -->
-      <a href="contact.html" class="btn btn--primary">Get in touch</a>
-      <a href="index.html"   class="btn btn--ghost">View gallery</a>
+      <!--switch primary to ghost for more subtle button-->
+      <a href="contact.html" class="btn btn--primary">View my resume</a>
+      <a href="index.html"   class="btn btn--primary">Contact me</a>
     </div>
 
   </main>

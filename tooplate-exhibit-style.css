@@ -364,22 +364,21 @@ Free HTML CSS Template
     .front__gallery {
       padding:         var(--space-section-gap) var(--space-page-x);
       /* CSS Columns masonry */
-      column-count:    var(--grid-columns-frontpg);
+      column-count:    var(--grid-columns-desktop);
       column-gap:      var(--grid-column-gap);
     }
 
     /* ── Responsive column counts ─────────────────────────────── */
-    @media (min-width: 1000px) {
-      .front__gallery { column-count: var(--grid-columns-frontpg); }
-      .front__gallery { padding: var(--space-section-gap) var(--space-gallery-x); }
+    @media (min-width: 1400px) {
+      .front__gallery { column-count: var(--grid-columns-wide); }
     }
 
     @media (max-width: 900px) {
-      .front__gallery { column-count: var(--grid-columns-frontpg); }
+      .front__gallery { column-count: var(--grid-columns-tablet); }
     }
 
     @media (max-width: 560px) {
-      .front__gallery { column-count: var(--grid-columns-frontpg); }
+      .front__gallery { column-count: var(--grid-columns-mobile); }
     }
 
     .case__gallery {
@@ -426,6 +425,15 @@ Free HTML CSS Template
 
     .gallery__item:hover .gallery__image {
       transform:       scale(1.035);
+    }
+
+    /* ── Make exception for case images (no zoom-in) ──────────── */
+    .case__image {
+      width:           100%;
+      height:          auto;
+      display:         block;
+      transition:      var(--transition-image-scale);
+      will-change:     transform;
     }
 
     /* ── Caption Overlay ──────────────────────────────────────── */
