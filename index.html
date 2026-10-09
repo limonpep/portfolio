@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Exhibit — Photography Gallery</title>
+  <title>Kylie Beaudry — 3D Portfolio</title>
   <meta name="description" content="A minimalist photography portfolio gallery template." />
 
   <!--
@@ -27,12 +27,12 @@ Free HTML CSS Template
     <div class="nav__bar">
 
       <!-- ↓ EDIT: Replace with your name or studio name -->
-      <a href="index.html" class="nav__wordmark">Exhibit <span>/ Studio</span></a>
+      <a href="index.html" class="nav__wordmark">Kylie Beaudry <span>/ 3D Generalist</span></a>
 
       <!-- ↓ EDIT: Desktop links (visible ≥680px) -->
       <ul class="nav__links">
         <li><a href="index.html" class="nav__link--active">Gallery</a></li>
-        <li><a href="about.html">About</a></li>
+        <!--<li><a href="about.html">About</a></li>-->
         <li><a href="contact.html">Contact</a></li>
       </ul>
 
@@ -54,39 +54,19 @@ Free HTML CSS Template
     <!-- ↓ EDIT: Mobile menu links (visible <680px, toggled by hamburger) -->
     <ul class="nav__mobile-menu" id="js-mobile-menu" aria-hidden="true">
       <li><a href="index.html" class="nav__link--active">Gallery</a></li>
-      <li><a href="about.html">About</a></li>
       <li><a href="contact.html">Contact</a></li>
     </ul>
 
   </nav>
 
 
-  <!-- ═══════════════════════════════════════════════════════════════
-       HERO
-       ═══════════════════════════════════════════════════════════════ -->
-  <header class="site-hero">
-
-    <!-- ↓ EDIT: Your gallery category / series name -->
-    <p class="hero__tag">Photography · 2025</p>
-
-    <!-- ↓ EDIT: Your gallery headline -->
-    <h1 class="hero__title">
-      Light &amp;<br><strong>Shadow</strong>
-    </h1>
-
-    <div class="hero__meta">
-      <!-- this is the photo count stuff
-      <span class="hero__count" id="js-photo-count">24 Photographs</span>
-      <div class="hero__rule" aria-hidden="true"></div>
-      -->
-      <p class="hero__desc">A study of contrast — moments suspended between darkness and the searching, persistent light.</p>
-    </div>
-
-  </header>
+<!--
+this was the hero section, code lines ~64-85  
+-->
 
 
   <!-- ═══════════════════════════════════════════════════════════════
-       FILTER BAR  (optional — delete this section if not needed)
+       FILTER BAR  (optional — delete this section if not needed) <----- bring this back to section out environments, rigging, etc
        ═══════════════════════════════════════════════════════════════ -->
   <!--<div class="gallery-filter-wrap">
     <div class="gallery-filter" role="toolbar" aria-label="Filter gallery">
@@ -139,7 +119,7 @@ Free HTML CSS Template
         />
         <div class="gallery__caption">
           <span class="gallery__caption-title">Modeling a House</span>
-          <span class="gallery__caption-meta">House walkthrough tour in Unreal. <b>Click for more details.</b></span>
+          <span class="gallery__caption-meta">House walkthrough tour in Unreal.</span>
         </div>
 
         <div class="gallery__expand-icon" aria-hidden="true">
@@ -321,10 +301,10 @@ Free HTML CSS Template
       <div class="about-portrait">
         <!-- ↓ EDIT: Replace with your portrait photo -->
         <img
-          src="images/tooplate-about-image.jpg"
+          src="C:\Users\kylie\Downloads\PROFESSIONALDEV\website\images\photo_crop_01.jpg"
           width="600"
           height="800"
-          alt="Portrait of the photographer"
+          alt="Portrait of Kylie Beaudry"
           class="about-portrait__img"
           loading="eager"
         />
@@ -334,32 +314,38 @@ Free HTML CSS Template
         <p class="about-bio__label"> </p>
 
         <!-- ↓ EDIT: Your full name -->
-        <h2 class="about-bio__name"><strong>Kylie</strong> Beaudry</h2>
+        <h2 class="about-bio__name"><strong>Kylie Beaudry</strong></h2>
         <!-- ↓ EDIT: Your title or specialty -->
-        <p class="about-bio__title">3D Generalist and Architectural Visualization</p>
+        <p class="about-bio__title">3D Generalist</p>
 
         <div class="about-bio__divider" aria-hidden="true"></div>
 
         <!-- ↓ EDIT: Your bio paragraphs (2–3 is ideal) -->
         <p class="about-bio__text">
-          I am a documentary and fine art photographer based in New York, working at the
-          intersection of light, memory, and human presence. My work has been exhibited
-          across galleries in Europe, Asia, and the Americas, and published in
-          <em>National Geographic</em>, <em>TIME</em>, and <em>Aperture</em>.
+          I am a 3D generalist for games and film, doing work from modeling to rigging to scripting. 
+          I was first introduced to the 3D art pipeline while attending college at Worcester Polytechnic Institute, 
+          graduating in May of 2026. I believe that the possibilities are nearly endless in 3D, and 
+          love the variety of applications that just a few 3D models can be used in.
         </p>
         <p class="about-bio__text">
-          I believe every photograph is a negotiation between the seen and the felt.
-          I work in long expeditions — months, sometimes years — building the trust
-          that allows a subject to forget the camera exists. That is the only moment
-          worth capturing.
+          Outside of work I am passionate about fashion, listening to music, and playing music (drums 
+          and electric bass).
         </p>
 
 
     <!-- ── CTA ──────────────────────────────────────────────────── -->
     <div class="about-cta">
       <!--switch primary to ghost for more subtle button-->
-      <a href="contact.html" class="btn btn--primary">View my resume</a>
-      <a href="index.html"   class="btn btn--primary">Contact me</a>
+      <a href="resume.html" class="btn btn--primary">View my resume</a>
+      <a href="contact.html"   class="btn btn--primary">Contact me</a>
+      <a class="btn btn--socials"> <svg xmlns="http://www.w3.org/2000/svg" width="2rem" height="2rem" viewBox="0 0 24 24">
+        <title>Linkedin</title><path fill="currentColor" d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2zm-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.32 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93zM6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37z"/></svg></a>
+      <a class="btn btn--socials"> <svg xmlns="http://www.w3.org/2000/svg" width="2rem" height="2rem" viewBox="0 0 24 24">
+        <title>Bluesky</title><path fill="currentColor" d="M12 11.388c-.906-1.761-3.372-5.044-5.665-6.662c-2.197-1.55-3.034-1.283-3.583-1.033C2.116 3.978 2 4.955 2 5.528c0 .575.315 4.709.52 5.4c.68 2.28 3.094 3.05 5.32 2.803c-3.26.483-6.157 1.67-2.36 5.898c4.178 4.325 5.726-.927 6.52-3.59c.794 2.663 1.708 7.726 6.444 3.59c3.556-3.59.977-5.415-2.283-5.898c2.225.247 4.64-.523 5.319-2.803c.205-.69.52-4.825.52-5.399c0-.575-.116-1.55-.752-1.838c-.549-.248-1.386-.517-3.583 1.033c-2.293 1.621-4.76 4.904-5.665 6.664"/></svg></a>
+      <!--<a class="btn btn--socials"> <svg xmlns="http://www.w3.org/2000/svg" width="2rem" height="2rem" viewBox="0 0 32 32">
+        <title>artstation</title><path fill="currentColor" d="m0 23.63l2.703 4.672a3.23 3.23 0 0 0 2.885 1.781h17.943l-3.724-6.453zm32 .031a3.25 3.25 0 0 0-.516-1.75L20.968 3.635a3.23 3.23 0 0 0-2.854-1.719h-5.557l16.24 28.135l2.563-4.432c.5-.849.641-1.224.641-1.958zm-14.839-4.614L9.906 6.479l-7.26 12.568z"/></svg></a>-->
+      <a class="btn btn--socials"> <svg xmlns="http://www.w3.org/2000/svg" width="2rem" height="2rem" viewBox="0 0 24 24">
+        <title>X/Twitter</title><path fill="currentColor" d="M13.795 10.533L20.68 2h-3.073l-5.255 6.517L7.69 2H1l7.806 10.91L1.47 22h3.074l5.705-7.07L15.31 22H22zm-2.38 2.95L9.97 11.464L4.36 3.627h2.31l4.528 6.317l1.443 2.02l6.018 8.409h-2.31z"/></svg></a>      
     </div>
 
   </main>
@@ -414,17 +400,12 @@ Free HTML CSS Template
 
     <div>
       <!-- ↓ EDIT: Replace with your name / studio -->
-      <p class="footer__brand">Exhibit Studio</p>
-      <p class="footer__credit">
-        Free CSS template by <a href="https://www.tooplate.com/view/2160-exhibit-studio" target="_blank" rel="nofollow">Tooplate</a>.<br>
-        Photos via <a href="https://picsum.photos" target="_blank" rel="noopener">Lorem Picsum</a>. Free for personal &amp; commercial use.
-      </p>
+      <p class="footer__brand">Kylie Beaudry</p>
     </div>
 
     <!-- ↓ EDIT: Update links to match your site pages -->
     <ul class="footer__nav">
       <li><a href="index.html">Gallery</a></li>
-      <li><a href="about.html">About</a></li>
       <li><a href="contact.html">Contact</a></li>
     </ul>
 
