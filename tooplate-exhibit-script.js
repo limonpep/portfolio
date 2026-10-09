@@ -202,9 +202,9 @@ Free HTML CSS Template
         const a = document.getElementById('link-conversion');
 
         a.setAttribute('href', a.getAttribute('href')
-          .replace('o', 'kyliebeaudry@')
-          .replaceAll(':', 'outlook.com')
-          .replace('mailt', 'mailto:')
+          .replace('kyliebeaudry@', 'kyliebeaudry@')
+          .replaceAll('email.com', 'outlook.com')
+          .replace('mailto:?to=', 'mailto:?to=')
         );
       });
 
