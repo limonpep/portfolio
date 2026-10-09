@@ -193,7 +193,21 @@ Free HTML CSS Template
       });
 
       
+      /* ─────────────────────────────────────────────────────────────
+         EMAIL OBSTRUCTION 
 
+         i don't know anything about javascript D:
+         ───────────────────────────────────────────────────────────── */
+      document.addEventListener('DOMContentLoaded', function () {
+        const a = document.getElementById('link-conversion');
+
+        a.setAttribute('href', a.getAttribute('href')
+          .replace('-', 'kyliebeaudry@')
+          .replaceAll('-', '.')
+          .replace('/', '.com')
+          .replace('to', 'mailto:')
+        );
+      });
 
       /* ─────────────────────────────────────────────────────────────
          CONTACT FORM — client-side validation
